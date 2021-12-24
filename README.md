@@ -6,13 +6,12 @@ A fork of [hugo's even theme](https://github.com/olOwOlo/hugo-theme-even/)
 Changes/improvements/differences:
 
 - Support custom text on site index.html via `content/_index.md` 
+- Support hiding pagination from the frontpage (`showPagination: false` in `content/_index.md`)
 - Allow separately disabling header (`hideHeader`) and footer (`hideFooter`)
 - Support removing pages from all indices (frontpage, archives, sitemap, rss, taxonomies), effectively making the page "hidden" (`hidden: true`)
-- Support hiding pages from the front page (`onHomepage: false`).
+- Support hiding pages from the front page (`onhomepage: false`).
 
-
-Otherwise is a direct copy of the base Even theme.
-
+Otherwise is just a copy of the base Even theme. I'll periodically keep it updated with upstream improvements.
 
 
 # hugo-theme-even
